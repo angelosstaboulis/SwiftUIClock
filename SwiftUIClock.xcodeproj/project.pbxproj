@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D682B7DA269263DE000ADF98 /* SwiftUIClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682B7D9269263DE000ADF98 /* SwiftUIClockApp.swift */; };
+		D682B7DC269263DE000ADF98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682B7DB269263DE000ADF98 /* ContentView.swift */; };
+		D682B7DE269263DF000ADF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D682B7DD269263DF000ADF98 /* Assets.xcassets */; };
+		D682B7E1269263DF000ADF98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D682B7E0269263DF000ADF98 /* Preview Assets.xcassets */; };
+		D682B7EC269263DF000ADF98 /* SwiftUIClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682B7EB269263DF000ADF98 /* SwiftUIClockTests.swift */; };
+		D682B7F7269263DF000ADF98 /* SwiftUIClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682B7F6269263DF000ADF98 /* SwiftUIClockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D682B7E8269263DF000ADF98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D682B7CE269263DE000ADF98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D682B7D5269263DE000ADF98;
+			remoteInfo = SwiftUIClock;
+		};
+		D682B7F3269263DF000ADF98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D682B7CE269263DE000ADF98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D682B7D5269263DE000ADF98;
+			remoteInfo = SwiftUIClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D682B7D6269263DE000ADF98 /* SwiftUIClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D682B7D9269263DE000ADF98 /* SwiftUIClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIClockApp.swift; sourceTree = "<group>"; };
+		D682B7DB269263DE000ADF98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D682B7DD269263DF000ADF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D682B7E0269263DF000ADF98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D682B7E2269263DF000ADF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D682B7E7269263DF000ADF98 /* SwiftUIClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D682B7EB269263DF000ADF98 /* SwiftUIClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIClockTests.swift; sourceTree = "<group>"; };
+		D682B7ED269263DF000ADF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D682B7F2269263DF000ADF98 /* SwiftUIClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D682B7F6269263DF000ADF98 /* SwiftUIClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIClockUITests.swift; sourceTree = "<group>"; };
+		D682B7F8269263DF000ADF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D682B7D3269263DE000ADF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D682B7E4269263DF000ADF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D682B7EF269263DF000ADF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D682B7CD269263DE000ADF98 = {
+			isa = PBXGroup;
+			children = (
+				D682B7D8269263DE000ADF98 /* SwiftUIClock */,
+				D682B7EA269263DF000ADF98 /* SwiftUIClockTests */,
+				D682B7F5269263DF000ADF98 /* SwiftUIClockUITests */,
+				D682B7D7269263DE000ADF98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D682B7D7269263DE000ADF98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D682B7D6269263DE000ADF98 /* SwiftUIClock.app */,
+				D682B7E7269263DF000ADF98 /* SwiftUIClockTests.xctest */,
+				D682B7F2269263DF000ADF98 /* SwiftUIClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D682B7D8269263DE000ADF98 /* SwiftUIClock */ = {
+			isa = PBXGroup;
+			children = (
+				D682B7D9269263DE000ADF98 /* SwiftUIClockApp.swift */,
+				D682B7DB269263DE000ADF98 /* ContentView.swift */,
+				D682B7DD269263DF000ADF98 /* Assets.xcassets */,
+				D682B7E2269263DF000ADF98 /* Info.plist */,
+				D682B7DF269263DF000ADF98 /* Preview Content */,
+			);
+			path = SwiftUIClock;
+			sourceTree = "<group>";
+		};
+		D682B7DF269263DF000ADF98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D682B7E0269263DF000ADF98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D682B7EA269263DF000ADF98 /* SwiftUIClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				D682B7EB269263DF000ADF98 /* SwiftUIClockTests.swift */,
+				D682B7ED269263DF000ADF98 /* Info.plist */,
+			);
+			path = SwiftUIClockTests;
+			sourceTree = "<group>";
+		};
+		D682B7F5269263DF000ADF98 /* SwiftUIClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D682B7F6269263DF000ADF98 /* SwiftUIClockUITests.swift */,
+				D682B7F8269263DF000ADF98 /* Info.plist */,
+			);
+			path = SwiftUIClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D682B7D5269263DE000ADF98 /* SwiftUIClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D682B7FB269263DF000ADF98 /* Build configuration list for PBXNativeTarget "SwiftUIClock" */;
+			buildPhases = (
+				D682B7D2269263DE000ADF98 /* Sources */,
+				D682B7D3269263DE000ADF98 /* Frameworks */,
+				D682B7D4269263DE000ADF98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIClock;
+			productName = SwiftUIClock;
+			productReference = D682B7D6269263DE000ADF98 /* SwiftUIClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D682B7E6269263DF000ADF98 /* SwiftUIClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D682B7FE269263DF000ADF98 /* Build configuration list for PBXNativeTarget "SwiftUIClockTests" */;
+			buildPhases = (
+				D682B7E3269263DF000ADF98 /* Sources */,
+				D682B7E4269263DF000ADF98 /* Frameworks */,
+				D682B7E5269263DF000ADF98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D682B7E9269263DF000ADF98 /* PBXTargetDependency */,
+			);
+			name = SwiftUIClockTests;
+			productName = SwiftUIClockTests;
+			productReference = D682B7E7269263DF000ADF98 /* SwiftUIClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D682B7F1269263DF000ADF98 /* SwiftUIClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D682B801269263DF000ADF98 /* Build configuration list for PBXNativeTarget "SwiftUIClockUITests" */;
+			buildPhases = (
+				D682B7EE269263DF000ADF98 /* Sources */,
+				D682B7EF269263DF000ADF98 /* Frameworks */,
+				D682B7F0269263DF000ADF98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D682B7F4269263DF000ADF98 /* PBXTargetDependency */,
+			);
+			name = SwiftUIClockUITests;
+			productName = SwiftUIClockUITests;
+			productReference = D682B7F2269263DF000ADF98 /* SwiftUIClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D682B7CE269263DE000ADF98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D682B7D5269263DE000ADF98 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D682B7E6269263DF000ADF98 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D682B7D5269263DE000ADF98;
+					};
+					D682B7F1269263DF000ADF98 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D682B7D5269263DE000ADF98;
+					};
+				};
+			};
+			buildConfigurationList = D682B7D1269263DE000ADF98 /* Build configuration list for PBXProject "SwiftUIClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D682B7CD269263DE000ADF98;
+			productRefGroup = D682B7D7269263DE000ADF98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D682B7D5269263DE000ADF98 /* SwiftUIClock */,
+				D682B7E6269263DF000ADF98 /* SwiftUIClockTests */,
+				D682B7F1269263DF000ADF98 /* SwiftUIClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D682B7D4269263DE000ADF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D682B7E1269263DF000ADF98 /* Preview Assets.xcassets in Resources */,
+				D682B7DE269263DF000ADF98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D682B7E5269263DF000ADF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D682B7F0269263DF000ADF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D682B7D2269263DE000ADF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D682B7DC269263DE000ADF98 /* ContentView.swift in Sources */,
+				D682B7DA269263DE000ADF98 /* SwiftUIClockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D682B7E3269263DF000ADF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D682B7EC269263DF000ADF98 /* SwiftUIClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D682B7EE269263DF000ADF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D682B7F7269263DF000ADF98 /* SwiftUIClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D682B7E9269263DF000ADF98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D682B7D5269263DE000ADF98 /* SwiftUIClock */;
+			targetProxy = D682B7E8269263DF000ADF98 /* PBXContainerItemProxy */;
+		};
+		D682B7F4269263DF000ADF98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D682B7D5269263DE000ADF98 /* SwiftUIClock */;
+			targetProxy = D682B7F3269263DF000ADF98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D682B7F9269263DF000ADF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D682B7FA269263DF000ADF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D682B7FC269263DF000ADF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIClock/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUIClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D682B7FD269263DF000ADF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIClock/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUIClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D682B7FF269263DF000ADF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				INFOPLIST_FILE = SwiftUIClockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUIClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIClock.app/SwiftUIClock";
+			};
+			name = Debug;
+		};
+		D682B800269263DF000ADF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				INFOPLIST_FILE = SwiftUIClockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUIClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIClock.app/SwiftUIClock";
+			};
+			name = Release;
+		};
+		D682B802269263DF000ADF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				INFOPLIST_FILE = SwiftUIClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUIClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUIClock;
+			};
+			name = Debug;
+		};
+		D682B803269263DF000ADF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				INFOPLIST_FILE = SwiftUIClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUIClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUIClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D682B7D1269263DE000ADF98 /* Build configuration list for PBXProject "SwiftUIClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D682B7F9269263DF000ADF98 /* Debug */,
+				D682B7FA269263DF000ADF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D682B7FB269263DF000ADF98 /* Build configuration list for PBXNativeTarget "SwiftUIClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D682B7FC269263DF000ADF98 /* Debug */,
+				D682B7FD269263DF000ADF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D682B7FE269263DF000ADF98 /* Build configuration list for PBXNativeTarget "SwiftUIClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D682B7FF269263DF000ADF98 /* Debug */,
+				D682B800269263DF000ADF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D682B801269263DF000ADF98 /* Build configuration list for PBXNativeTarget "SwiftUIClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D682B802269263DF000ADF98 /* Debug */,
+				D682B803269263DF000ADF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D682B7CE269263DE000ADF98 /* Project object */;
+}
