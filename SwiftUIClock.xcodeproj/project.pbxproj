@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6685A77269309C40043C1C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6685A76269309C40043C1C2 /* LaunchScreen.storyboard */; };
 		D682B7DA269263DE000ADF98 /* SwiftUIClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682B7D9269263DE000ADF98 /* SwiftUIClockApp.swift */; };
 		D682B7DC269263DE000ADF98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682B7DB269263DE000ADF98 /* ContentView.swift */; };
 		D682B7DE269263DF000ADF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D682B7DD269263DF000ADF98 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6685A76269309C40043C1C2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D682B7D6269263DE000ADF98 /* SwiftUIClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D682B7D9269263DE000ADF98 /* SwiftUIClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIClockApp.swift; sourceTree = "<group>"; };
 		D682B7DB269263DE000ADF98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				D682B7DD269263DF000ADF98 /* Assets.xcassets */,
 				D682B7E2269263DF000ADF98 /* Info.plist */,
 				D682B7DF269263DF000ADF98 /* Preview Content */,
+				D6685A76269309C40043C1C2 /* LaunchScreen.storyboard */,
 			);
 			path = SwiftUIClock;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6685A77269309C40043C1C2 /* LaunchScreen.storyboard in Resources */,
 				D682B7E1269263DF000ADF98 /* Preview Assets.xcassets in Resources */,
 				D682B7DE269263DF000ADF98 /* Assets.xcassets in Resources */,
 			);
