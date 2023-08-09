@@ -51,7 +51,7 @@ struct ContentView: View {
                     dateFormatter.string(from: date.date!)
                     text_full_date =  dateFormatter.string(from: date.date!)
                     second = second + 1
-                    hour = (360/12) * Double(date.hour!) + 15
+                    hour = (360/12) * Double(date.hour!) 
                     minute = (360/60) * Double(date.minute!)
                     second_value = (360/60) * Double(date.second!)
                     text_hour =  String(date.hour!)
